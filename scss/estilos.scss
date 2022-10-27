@@ -1,6 +1,4 @@
 @import "_estructura.scss";
-@import "_colores.scss";
-@import "_variables.scss";
 
 /*operaciones*/
 $ancho: 550px;
@@ -20,7 +18,7 @@ $ancho: 550px;
 .menu_header li {
     list-style: none;
     padding: 5px;
-    font-size: medium;
+    font-size: small;
     text-transform: uppercase;
     a {
         color: black;
@@ -73,6 +71,7 @@ $ancho: 550px;
     p {
       text-align: center;
       font-family: cursive;
+      
     }
 }
 

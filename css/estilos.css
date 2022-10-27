@@ -12,7 +12,7 @@ body {
 .menu_header li {
   list-style: none;
   padding: 5px;
-  font-size: medium;
+  font-size: small;
   text-transform: uppercase; }
   .menu_header li a {
     color: black;
