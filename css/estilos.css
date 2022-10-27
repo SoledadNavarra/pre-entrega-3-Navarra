@@ -1,0 +1,85 @@
+body {
+  font-family: 'Josefin Sans', sans-serif; }
+
+/*operaciones*/
+.logo {
+  width: 145px; }
+
+.menu_header {
+  display: flex;
+  flex-direction: row; }
+
+.menu_header li {
+  list-style: none;
+  padding: 5px;
+  font-size: medium;
+  text-transform: uppercase; }
+  .menu_header li a {
+    color: black;
+    text-decoration: none; }
+    .menu_header li a:hover {
+      background-color: #e2c399; }
+
+.oracion {
+  border-top: 1px solid gray; }
+
+@keyframes animacion1 {
+  0% {
+    width: 100px; }
+  50% {
+    width: 300px;
+    font-size: 18px; }
+  70% {
+    width: 200px;
+    font-size: 20px; } }
+
+.animacion {
+  width: 100px;
+  height: 100px;
+  animation-name: animacion1;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-duration: 5s;
+  font-size: 14px; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.aparecer {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-delay: 1s;
+  animation-iteration-count: infinite; }
+
+.especialidades img {
+  width: 150px;
+  height: 120px; }
+  .especialidades img p {
+    text-align: center;
+    font-family: cursive; }
+
+.fondo_inicio {
+  background-image: url(../images/justicia.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px; }
+
+.abogado img {
+  width: 550px;
+  height: 430px; }
+
+.menu_footer li {
+  list-style: none;
+  margin-left: -30px;
+  font-size: small; }
+  .menu_footer li a {
+    color: black;
+    text-decoration: none; }
+    .menu_footer li a:hover {
+      text-decoration: underline;
+      font-size: 18px;
+      background-color: #e2c399; }
